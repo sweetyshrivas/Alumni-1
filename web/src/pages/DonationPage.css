@@ -1,0 +1,33 @@
+/* src/pages/donationPage.css */
+.donation-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .donation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-submit {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    color: green;
+    font-size: 0.9em;
+  }
+  
