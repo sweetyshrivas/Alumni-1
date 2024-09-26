@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alumni Association Platform</title>
   <link rel="stylesheet" href="%PUBLIC_URL%/styles/app.css">
+  <!-- Include in <head> for CSS -->
+<link rel="stylesheet" href="chatbot/chatbot.css">
+
 </head>
+<!-- Include before </body> for JavaScript -->
+<script src="chatbot/chatbot.js"></script>
+
 <body>
-  <div id="root"></div>
+  <!-- Add this to the body of your HTML file -->
+<div id="chat-container">
+  <div id="chat-header">Chatbot</div>
+  <div id="messages"></div>
+  <div id="user-input">
+      <input type="text" id="userMessage" placeholder="Type a message..."/>
+      <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<div id="root"></div>
 </body>
 </html>
